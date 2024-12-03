@@ -4,9 +4,77 @@
 padding: 0px;
 margin: 0px;
 }
+
+:root{
+    --cor01: rgba(72, 224, 248, 0.816);
+    --cor02: rgba(204, 203, 203, 0.612);
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+
 html{
+  
 
 }
 body{
 
+   background-color: var(--cor02);
+
+}
+
+header{
+     
+}
+
+.bloco01{
+    background-color: var(--cor01);
+    min-width:100vw;
+    min-height:100px;
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+main{
+ 
+    
+}
+div{
+   
+
+}
+.bloco02{
+    background-color:var(--cor01);  
+    min-height:50px;
+    margin-bottom: 50px;
+
+    text-align: center;
+    align-content: end;
+    font-size: 1.5em;
+}
+
+.bloco03{       
+    background-color: var(--cor01);
+    margin-bottom: 50px;
+
+    height: 30vw;
+
+
+}
+.bloco04{
+    background-color: var(--cor01);
+    margin-bottom: 50px;
+
+    height: 30vw;
+}
+
+footer{
+    background-color:var(--cor01);
+    text-align: center;
+
+  
+    bottom: 0px;
+    
 }
