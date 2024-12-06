@@ -15,12 +15,13 @@ margin: 0px;
 }
 
 html{
-  
+   
 
 }
 body{
 
    background-color: var(--cor02);
+   min-height: auto;
 
 }
 
@@ -38,7 +39,7 @@ a{
     color: black;
 }
 main{
- 
+ min-height: 700px;
     
 }
 div{
@@ -72,9 +73,10 @@ div{
 
 footer{
     background-color:var(--cor01);
+
     text-align: center;
 
-  
-    bottom: 0px;
+
+    
     
 }
